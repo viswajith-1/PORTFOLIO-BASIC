@@ -129,3 +129,24 @@ th {
   padding: 10px;
   gap: 20px;
 }
+
+.about-section{
+  border: 1px solid white;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  width: 1000px;
+  height: 600px;
+  text-align: justify;
+  margin: 0% auto;
+  padding: 10px;
+}
+
+.home-section{
+text-align: center;
+font-family: "IBM Plex Mono", monospace;
+font-weight: 300;
+font-style: normal;
+color: white;
+}
