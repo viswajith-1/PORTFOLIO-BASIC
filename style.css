@@ -65,6 +65,7 @@ table {
   font-weight: 300;
   font-style: normal;
   color: rgb(255, 255, 255);
+  animation: fadeIn 2s ease-in-out;
 }
 
 th,
@@ -93,6 +94,7 @@ th {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 300;
   font-style: normal;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .card {
@@ -103,6 +105,7 @@ th {
   color: white;
   width: 300px;
   height: 300px;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .card img {
@@ -139,6 +142,7 @@ th {
   text-align: justify;
   margin: 0% auto;
   padding: 20px;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .home-screen {
@@ -167,7 +171,17 @@ th {
 }
 
 .home-screen h2 {
-color: #00ff0d;
+color: #ffffff;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .about-section img{
@@ -176,4 +190,13 @@ color: #00ff0d;
   height: 400px;
   margin: 0 auto;
   display: block;
+}
+
+.home-section {
+  width: 100%;
+  height: 860px;
+  background-image: url('/images/background.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
 }
