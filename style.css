@@ -171,20 +171,10 @@ th {
 }
 
 .home-screen h2 {
-color: #ffffff;
-
+  color: #ffffff;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.about-section img{
+.about-section img {
   object-fit: cover;
   width: 400px;
   height: 400px;
@@ -195,8 +185,17 @@ color: #ffffff;
 .home-section {
   width: 100%;
   height: 860px;
-  background-image: url('/images/background.jpg'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
